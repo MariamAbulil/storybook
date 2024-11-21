@@ -1,0 +1,53 @@
+/* الأنماط الأساسية للزر */
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  /* الأنماط الخاصة بالنوع primary */
+  .button--primary {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+  }
+  
+  /* الأنماط الخاصة بالنوع secondary */
+  .button--secondary {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+  
+  /* الأنماط الخاصة بالنوع text */
+  .button--text {
+    background: none;
+    color: green;
+    border: none;
+    text-decoration: none;
+  }
+  
+  /* عند المرور فوق زر النوع text */
+  .button--text:hover {
+    text-decoration: underline;
+  }
+  
+  /* الأنماط الخاصة بحجم الزر */
+  .button--small {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  
+  .button--medium {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .button--large {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+  
